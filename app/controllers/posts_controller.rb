@@ -12,7 +12,7 @@ class PostsController < ApplicationController
 
     redirect_to @post
     else 
-      render :edit
+      render "edit"
     end
   end
 
